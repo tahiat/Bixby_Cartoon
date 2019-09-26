@@ -1,0 +1,19 @@
+structure (Cartoon) {
+  description (cartoon)
+  property (imageurl) {
+    type (ImageUrl)
+    min (Required) max (One)
+  }
+  property (pageurl) {
+    type (PageUrl)
+    min (Optional) max (One)
+  }
+  property (author) {
+    type (Author)
+    min (Optional) max (One)
+  }
+  property (title) {
+    type (Title)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,5 @@
+vocab(Category) {
+  "Dogs" {"dogs", "dog"}
+  "Cats"  {"cats", "cat"}
+  "Dating" {"dating"}
+}
